@@ -46,7 +46,6 @@ const Project = () => {
         <Card title={"AI CHAT BOT"} img={"image/cb.png"} />
         <Card title={"AI IMAGE REMOVER"} img={"image/br.png"} />
         <Card title={"IMAGE SEARCH ENGINE"} img={"image/ise.png"} />
-        <Card title={"VIRTUAL ASSISTANT"} img={"image/va.png"} />
       </div>
     </div>
   );
