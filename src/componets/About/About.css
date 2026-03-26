@@ -1,0 +1,100 @@
+#about {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+
+}
+
+.leftabout {
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+
+}
+
+.circle-line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.circle {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #7ad7ea;
+  box-shadow: 2px 2px 20px #7ad7ea;
+}
+
+.line {
+  width: 3px;
+  height: 120px;
+  background-color: white;
+}
+
+.aboutdetails {
+  display: flex;
+  flex-direction: column;
+
+  gap: 40px;
+}
+
+.aboutdetails ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.aboutdetails h1 {
+  background: linear-gradient(to right, rgb(205, 71, 66), white);
+  background-clip: text;
+  color: transparent;
+}
+
+.aboutdetails li {
+  color: white;
+}
+
+.aboutdetails li span {
+  color: #7ad7ea;
+
+}
+
+.personaldetails,
+.skills,
+.education {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.rightabout {
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width:550px) {
+  #about {
+    flex-direction: column;
+  }
+
+  .leftabout,
+  .rightabout {
+    width: 100%;
+  }
+
+  .leftabout {
+    padding: 10%;
+  }
+}
