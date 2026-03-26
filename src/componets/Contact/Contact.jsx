@@ -25,10 +25,10 @@ const Contact = () => {
       x: 100,
       opacity: 0,
       duration: 1,
-      stagger: 1,
+
       scrollTrigger: {
         trigger: ".rightcontact form",
-        scroll: "body",
+        scroller: "body",
         scrub: 2,
 
         start: "top 80%",
