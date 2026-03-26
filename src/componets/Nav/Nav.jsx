@@ -23,7 +23,7 @@ const Nav = () => {
   });
   return (
     <nav className="nav">
-      <h1>PROTFOLIO</h1>
+      <h1>PORTFOLIO</h1>
       <ul id="desktopMenu">
         <Link
           to="home"
